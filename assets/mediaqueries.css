@@ -1,0 +1,186 @@
+@media (max-width: 992px){
+    .navbar{
+        gap: 10px;
+    }
+
+    .navbar-list{
+        z-index: 2;
+        display: none;
+        align-items: flex-start;
+        padding: 45px 30px;
+        position: absolute;
+        top: 60px;
+        left 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background: var(--secundario);
+        border: 2px solid var(--cuarto);
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .navbar-list a{
+        font-size: 18px;
+    }
+
+    .menu-label{
+        display: flex;
+        cursor: pointer;
+        order: 2;
+    }   
+
+    .menu-icon{
+        height: 40px;
+        width: 40px;
+    }
+
+    #menu-toggle:checked + .navbar-list{
+        display: flex;
+    }
+
+    .cart-icon{
+        border: none;
+    }
+
+    .hero-info{
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1{
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p{
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .hero-card{
+        display: none;
+    }
+
+    /* info */
+
+    .info h2{
+        text-align: center;
+        width: 80%;
+    }
+
+    .info-cards-container{
+        max-width: 80%; 
+    }
+
+    /* Discover */
+
+    #discover{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .discover-info{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discover-cards{
+        flex-direction: column;
+    }
+
+    .discover-cards img{
+        width: 100%;
+    }
+
+    .categories{
+        flex-wrap: wrap;
+        max-width: 390px;
+    }
+}
+
+@media (max-width:596px) {
+    .cart{
+        left: 0;
+        width: 100%;
+    }
+
+    .cart-item{
+        flex-wrap: wrap;
+    }
+
+    .hero-info{
+        width: 90%;
+        max-width: unset;
+    }
+
+    .info-card{
+        width: 100%;
+    }
+
+    .info-card p{
+        width: 90%;
+    }
+
+    #discover {
+        width: 80%;
+    }
+
+    #discover h2{
+        width: 100%;
+        font-size: 38px;
+    }
+
+    .discover-text{
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .discover-cards{
+        gap: 25px;
+    }
+
+    .categories{
+        max-width: 300px;
+    }
+    
+    .products-container{
+        width: 80%;
+    }
+
+    .product{
+        width: 100%;
+    }
+
+    .product-top h3{
+        font-size: 20px;
+    }
+
+    .product-top p{
+        font-size: 12px;
+    }
+
+    .product img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .product-user img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .product-offer button{
+        padding: 10px 20px
+    }
+
+
+
+}  

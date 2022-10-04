@@ -4,19 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Figuritea</title>
     <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/mediaqueries.css">
 </head>
 <body>
     <header>
         <img src="./assets/img/logo.png" alt="Logo de ejemplo" class="logo">
         <nav class="navbar">
-        <ul class="navbar-list">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Biblioteca</a></li>
-            <li><a href="#">Producto</a></li>
-            <li><a href="#">Contacto</a></li>
-        </ul>
+            <label for="menu-toggle" class="menu-label">
+                <img src="./assets/img/menu-icon.png" alt="Icono de Menu" class="menu-icon">
+            </label>
+            <input type="checkbox" id="menu-toggle">
+            <ul class="navbar-list">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Biblioteca</a></li>
+                <li><a href="#">Producto</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+            <label for="cart-toggle" class="cart-label">
+                <img src="assets/img/carrito.png" alt="Carrito" class="cart-icon">
+            </label>
+            <input type="checkbox" name="" id="cart-toggle">
+            <!-- cart -->
+            <div class="cart">
+                <h2>Tus stickers</h2>
+                <div class="cart-item">
+                    <img src="./assets/img/paredes.png" alt="Carrito Sticker Paredes">
+                    <div class="item-info">
+                        <h3 class="item-title">Paredes</h3>
+                        <p class="item-bid">Oferta actual</p>
+                        <span class="item-price">50 ARS</span>
+                    </div>
+                </div>
+                <span class="divider"></span>
+                <div class="cart-total">
+                    <p>Total:</p>
+                    <span>340 ARS</span>
+                </div>
+                <button class="btn-add">Comprar</button>
+            </div>   
+            <!--End Cart-->
         </nav>
     </header>
     <main>

@@ -164,7 +164,9 @@
     }
 
     .product-top p{
+        white-space: nowrap;
         font-size: 12px;
+        max-height: 28px;
     }
 
     .product img{
@@ -181,6 +183,9 @@
         padding: 10px 20px
     }
 
-
-
+    .footer-list{
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
 }  

@@ -507,6 +507,10 @@ main{
     align-items: center;
 }
 
+.product-top{
+    gap: 20px;
+}
+
 .product-top h3{
     font-size: 16px;
     font-weight: 800;
@@ -526,8 +530,6 @@ main{
     border-radius: 10px;
     padding: 5px;
 }
-
-
 
 .product-user{
     display: flex;
